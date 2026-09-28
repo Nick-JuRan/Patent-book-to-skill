@@ -1,15 +1,15 @@
 ---
 name: prc-patent-examination-guidelines-2023
-description: "Knowledge base from 《专利审查指南》(2023年版, 国家知识产权局): how CNIPA examines Chinese patent applications — preliminary and substantive examination (客体, 说明书/权利要求书, 新颖性, 创造性三步法, 实用性, 单一性, 检索, 审查程序, 计算机程序/化学/中药), reexamination and invalidation (复审/无效/口头审理/证据), PCT national phase and Hague design applications, and formalities (受理, 费用, 期限与恢复, 送达, 保密审查, 公报, 授权与终止, 评价报告, 开放许可). For the statute itself use the sibling skill prc-patent-law-2020."
+description: "Knowledge base from 《专利审查指南》(2023年版) by 国家知识产权局 (CNIPA). Use when answering how CNIPA examines a Chinese patent application or how to respond to it: preliminary and substantive examination (客体, 说明书/权利要求书, 新颖性, 创造性三步法, 实用性, 单一性, 检索, 审查程序, 计算机程序/化学/中药), reexamination and invalidation (复审/无效/口头审理/证据), PCT national phase and Hague design applications, and formalities (受理, 费用, 期限与恢复, 送达, 保密审查, 公报, 授权与终止, 评价报告, 开放许可), or when referencing a Guidelines section (第N部分第N章第x.y节). For the statute itself use the sibling skill prc-patent-law-2020."
 ---
 
 <!-- argument-hint: [主题、章节（p2-ch04 / 第二部分第四章）或节号] -->
 
 # 专利审查指南（2023年版）
-**制定机关**：国家知识产权局 | **页数**：~613 | **结构**：6 部分 38 章（全部已生成） | **生成日期**：2026-09-28
+**制定机关**：国家知识产权局 | **页数**：~613 | **结构**：6 部分 38 章 | **生成日期**：2026-09-28
 
 ## 如何使用本技能
-- 不带参数 → 用下方核心规则回答；带主题 → 先在 [index.md](index.md) 的主题索引找到章节号，再读 `chapters/` 下该章文件；带章节号（p2-ch04 / 第二部分第四章）→ 直接读该章；带节号 → 先按章定位。
+- 不带参数 → 用下方核心规则回答；带主题 → 在下方主题索引或 [index.md](index.md) 找到章节号，再读该章文件；带章节号（p2-ch04 / 第二部分第四章）→ 直接读该章；带节号 → 先按章定位。
 - 指南回答"审查员按什么标准判断"；法条本身（条文、期限、赔偿）用姊妹技能 `prc-patent-law-2020`。章节文件中每条规则标注指南节号与法/细则条款（法22.3 = 专利法第22条第3款；细则N = 实施细则第N条，2023 年编号）。
 
 ## 核心规则（按部分）
@@ -44,18 +44,31 @@ description: "Knowledge base from 《专利审查指南》(2023年版, 国家知
 - 授权：登记手续 2 个月，专利权自公告日生效，逾期视为放弃；期限补偿——授权延迟（申请满四年且实审请求满三年，公告起三个月请求）与新药（≤5 年，总有效期 ≤14 年）；终止——期满、年费滞纳六个月（滞纳金 5–25%）、书面放弃。
 - 保密审查（法19）三条路径，初步结论 2/4 个月、决定 4/6 个月，PCT 三个月内终止国际阶段；评价报告 2 个月作出、一件一份、是证据非行政决定；开放许可须全体权利人声明，实用新型/外观设计附正面评价报告，九项禁止情形，声明与撤回自公告日生效。
 
-## 章节地图
-章节文件名以章节号开头（如 `chapters/p2-ch04-*.md`）；完整路径、每章关键规则和主题索引见 [index.md](index.md)。
-- 第一部分 初步审查：p1-ch01 发明 · p1-ch02 实用新型 · p1-ch03 外观设计 · p1-ch04 专利分类
-- 第二部分 实质审查：p2-ch01 不授予专利权的申请 · p2-ch02 说明书和权利要求书 · p2-ch03 新颖性 · p2-ch04 创造性 · p2-ch05 实用性 · p2-ch06 单一性和分案 · p2-ch07 检索 · p2-ch08 实质审查程序 · p2-ch09 计算机程序 · p2-ch10 化学 · p2-ch11 中药
-- 第三部分 国际申请：p3-ch01 进入国家阶段的初审与事务处理 · p3-ch02 国家阶段实审
-- 第四部分 复审与无效：p4-ch01 总则 · p4-ch02 复审 · p4-ch03 无效宣告 · p4-ch04 口头审理 · p4-ch05 外观设计无效 · p4-ch06 实用新型无效 · p4-ch07 同样的发明创造 · p4-ch08 证据
-- 第五部分 事务处理：p5-ch01 申请文件及手续 · p5-ch02 费用 · p5-ch03 受理 · p5-ch04 申请文档 · p5-ch05 保密申请与保密审查 · p5-ch06 通知和决定 · p5-ch07 期限、恢复、中止、顺序 · p5-ch08 公报和单行本 · p5-ch09 授予和终止 · p5-ch10 评价报告 · p5-ch11 开放许可
-- 第六部分 外观设计国际申请：p6-ch01 事务处理 · p6-ch02 审查
+## 章节索引
+每章关键规则见 [index.md](index.md)。
+- 第一部分 初步审查：[p1-ch01 发明](chapters/p1-ch01-发明专利申请的初步审查.md) · [p1-ch02 实用新型](chapters/p1-ch02-实用新型专利申请的初步审查.md) · [p1-ch03 外观设计](chapters/p1-ch03-外观设计专利申请的初步审查.md) · [p1-ch04 专利分类](chapters/p1-ch04-专利分类.md)
+- 第二部分 实质审查：[p2-ch01 不授予专利权的申请](chapters/p2-ch01-不授予专利权的申请.md) · [p2-ch02 说明书和权利要求书](chapters/p2-ch02-说明书和权利要求书.md) · [p2-ch03 新颖性](chapters/p2-ch03-新颖性.md) · [p2-ch04 创造性](chapters/p2-ch04-创造性.md) · [p2-ch05 实用性](chapters/p2-ch05-实用性.md) · [p2-ch06 单一性和分案](chapters/p2-ch06-单一性和分案申请.md) · [p2-ch07 检索](chapters/p2-ch07-检索.md) · [p2-ch08 实质审查程序](chapters/p2-ch08-实质审查程序.md) · [p2-ch09 计算机程序](chapters/p2-ch09-涉及计算机程序的发明专利申请审查.md) · [p2-ch10 化学](chapters/p2-ch10-化学领域发明专利申请审查.md) · [p2-ch11 中药](chapters/p2-ch11-中药领域发明专利申请审查.md)
+- 第三部分 国际申请：[p3-ch01 进入国家阶段的初审与事务处理](chapters/p3-ch01-进入国家阶段的国际申请的初步审查和事务处理.md) · [p3-ch02 国家阶段实审](chapters/p3-ch02-进入国家阶段的国际申请的实质审查.md)
+- 第四部分 复审与无效：[p4-ch01 总则](chapters/p4-ch01-总则.md) · [p4-ch02 复审](chapters/p4-ch02-复审请求的审查.md) · [p4-ch03 无效宣告](chapters/p4-ch03-无效宣告请求的审查.md) · [p4-ch04 口头审理](chapters/p4-ch04-口头审理.md) · [p4-ch05 外观设计无效](chapters/p4-ch05-无效宣告程序中外观设计专利的审查.md) · [p4-ch06 实用新型无效](chapters/p4-ch06-无效宣告程序中实用新型专利审查.md) · [p4-ch07 同样的发明创造](chapters/p4-ch07-无效宣告程序中同样的发明创造的处理.md) · [p4-ch08 证据](chapters/p4-ch08-无效宣告程序中的证据问题.md)
+- 第五部分 事务处理：[p5-ch01 申请文件及手续](chapters/p5-ch01-专利申请文件及手续.md) · [p5-ch02 费用](chapters/p5-ch02-专利费用.md) · [p5-ch03 受理](chapters/p5-ch03-受理.md) · [p5-ch04 申请文档](chapters/p5-ch04-专利申请文档.md) · [p5-ch05 保密申请与保密审查](chapters/p5-ch05-保密申请与向外国申请专利的保密审查.md) · [p5-ch06 通知和决定](chapters/p5-ch06-通知和决定.md) · [p5-ch07 期限、恢复、中止、顺序](chapters/p5-ch07-期限、权利的恢复、中止、审查的顺序.md) · [p5-ch08 公报和单行本](chapters/p5-ch08-专利公报和单行本的编辑.md) · [p5-ch09 授予和终止](chapters/p5-ch09-专利权的授予和终止.md) · [p5-ch10 评价报告](chapters/p5-ch10-专利权评价报告.md) · [p5-ch11 开放许可](chapters/p5-ch11-专利开放许可.md)
+- 第六部分 外观设计国际申请：[p6-ch01 事务处理](chapters/p6-ch01-外观设计国际注册申请的事务处理.md) · [p6-ch02 审查](chapters/p6-ch02-外观设计国际申请的审查.md)
+
+## 主题索引
+完整主题索引（六个部分，约 170 条）在 [index.md](index.md)；最常用的入口：
+- **三步法 / 技术启示 / 公知常识 / 预料不到的技术效果** → p2-ch04
+- **抵触申请 / 数值范围 / 宽限期 / 法9 重复授权** → p2-ch03
+- **充分公开 / 支持 / 功能性限定 / 开放式封闭式** → p2-ch02
+- **修改超范围（法33）/ 审查意见答复 / 视为撤回** → p2-ch08
+- **算法 / 商业方法 / 计算机程序** → p2-ch09；**补交实验数据 / 制药用途 / 马库什** → p2-ch10；**中药** → p2-ch11
+- **实用新型 / 外观设计客体、视图、简要说明** → p1-ch02、p1-ch03
+- **复审** → p4-ch02；**无效理由、举证、修改** → p4-ch03；**口审** → p4-ch04；**外观设计无效** → p4-ch05；**证据** → p4-ch08
+- **PCT 进入国家阶段** → p3-ch01；**海牙外观设计国际申请** → p6-ch01、p6-ch02
+- **期限计算 / 恢复 / 中止** → p5-ch07；**费用** → p5-ch02；**受理 / 申请日** → p5-ch03；**送达** → p5-ch06
+- **授权登记 / 期限补偿 / 年费 / 终止** → p5-ch09；**评价报告** → p5-ch10；**开放许可** → p5-ch11；**保密审查** → p5-ch05
 
 ## 支持文件
-- [index.md](index.md) — 38 章索引（链接 + 关键规则）与六个主题索引
-- [glossary.md](glossary.md) — 术语表，38 节按章分组，附节号
+- [index.md](index.md) — 38 章索引（每章关键规则）与六个完整主题索引
+- [glossary.md](glossary.md) — 术语表，约 390 条，按拼音排序，附章节号与节号
 - [patterns.md](patterns.md) — 审查与应对的程序模式（何时用 / 怎么做 / 取舍）
 - [cheatsheet.md](cheatsheet.md) — 期限速查、判断规则、数字门槛、失权信号
 
